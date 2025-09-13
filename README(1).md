@@ -15,17 +15,6 @@ The work was completed as part of **CPE646 - Pattern Recognition and Classificat
 
 ---
 
-## 📂 Files Submitted
-| File Name                | Description                                                   | Format |
-|---------------------------|---------------------------------------------------------------|---------|
-| `final_finalest_notebook.ipynb` | Main notebook containing code and analysis                     | Jupyter Notebook |
-| `Pattern_Report.pdf`      | Final written report summarizing results                      | PDF |
-| `main.py`                 | Script to fetch and load data into QuestDB                    | Python |
-| `config.py`               | Configuration file supporting `main.py`                       | Python |
-| `questdb_table.sql`       | SQL script containing QuestDB table definitions               | SQL |
-
----
-
 ## ⚙️ Installation & Setup
 Ensure you have **Python 3.10+**. Install dependencies:
 ```bash
