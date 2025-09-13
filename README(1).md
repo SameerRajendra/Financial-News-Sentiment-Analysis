@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 This project applies **transformer-based language models** to classify financial news into **positive, neutral, or negative sentiment**.  
-The work was completed as part of **CPE646 - Pattern Recognition and Classification (Spring 2025)** at **Stevens Institute of Technology**, under the guidance of **Dr. Hong Man**.  
+  
 
 ## 👨‍🎓 Contributors
 - **Sameer Shashikant Rajendra**  
@@ -14,18 +14,6 @@ The work was completed as part of **CPE646 - Pattern Recognition and Classificat
   📧 asubrama1@stevens.edu  
 
 ---
-
-## 📂 Files Submitted
-| File Name                | Description                                                   | Format |
-|---------------------------|---------------------------------------------------------------|---------|
-| `final_finalest_notebook.ipynb` | Main notebook containing code and analysis                     | Jupyter Notebook |
-| `Pattern_Report.pdf`      | Final written report summarizing results                      | PDF |
-| `main.py`                 | Script to fetch and load data into QuestDB                    | Python |
-| `config.py`               | Configuration file supporting `main.py`                       | Python |
-| `questdb_table.sql`       | SQL script containing QuestDB table definitions               | SQL |
-
----
-
 ## ⚙️ Installation & Setup
 Ensure you have **Python 3.10+**. Install dependencies:
 ```bash
