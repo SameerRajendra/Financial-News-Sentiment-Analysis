@@ -1,4 +1,4 @@
-# Financial News Sentiment Analysis with GPT-Neo 125M
+# Financial News Sentiment Analysis
 
 ## 📌 Overview
 This project applies **transformer-based language models** to classify financial news into **positive, neutral, or negative sentiment**.  
