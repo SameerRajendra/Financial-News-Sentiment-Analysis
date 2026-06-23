@@ -78,10 +78,10 @@ Financial news sentiment is highly imbalanced in the real world — positive art
 
 ```
 Financial-News-Sentiment-Analysis/
-├── main.py                          # Data ingestion pipeline (QuestDB)
-├── questdb_table.sql                # QuestDB schema definition
-├── final_finalest_notebook.ipynb    # Full training + evaluation notebook
-├── Pattern_Report.pdf               # Full project report
+├── main.py                                        # Data ingestion pipeline (QuestDB)
+├── config.py                                      # Configuration and hyperparameters
+├── Financial News Sentiment Analysis.ipynb        # Full training + evaluation notebook
+├── Pattern_Report.pdf                             # Full project report
 └── README.md
 ```
 
@@ -99,8 +99,6 @@ pip install pandas datasets scikit-learn transformers numpy torch evaluate accel
 ```bash
 # Run QuestDB via Docker
 docker run -p 9000:9000 -p 8812:8812 questdb/questdb
-# Then apply schema:
-psql -h localhost -p 8812 -U admin -f questdb_table.sql
 ```
 
 ---
@@ -112,8 +110,8 @@ psql -h localhost -p 8812 -U admin -f questdb_table.sql
 python main.py
 
 # Step 2: Fine-tune the model
-# Open final_finalest_notebook.ipynb and run cells sequentially
-jupyter notebook final_finalest_notebook.ipynb
+# Open the notebook and run cells sequentially
+jupyter notebook "Financial News Sentiment Analysis.ipynb"
 ```
 
 ### Inference Example
